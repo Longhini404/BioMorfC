@@ -45,7 +45,7 @@ int main(void) {
     		// verefica se a musica ja existe
     		auxiliarRetorno = strcmp(auxiliar[indice2], musica[numeroSorteado]);
     			
-    		// caso a musica exista o retorno receber· 0 e o indice ser· decrementado para o vetor ficar completo
+    		// caso a musica exista o retorno receber√° 0 e o indice ser√° decrementado para o vetor ficar completo
     		if (auxiliarRetorno == 0){
     				
     			retorno = 0;
@@ -65,7 +65,7 @@ int main(void) {
     
     for (int indice = 0; indice < 13; indice++){
     	
-    	printf("%d∫ - %s \n",indice+1, auxiliar[indice]);
+    	printf("%d¬∫ - %s \n",indice+1, auxiliar[indice]);
     	
 	}
     	
